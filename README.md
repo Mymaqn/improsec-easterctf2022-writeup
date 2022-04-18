@@ -352,7 +352,7 @@ Using crackstation, we can see that the password is `shopgirl711`
 
 Once we are authenticated we get access to a very minimalistic command line interface:
 
-![cmd](commandlineinterface)
+![cmd](commandlineinterface.png)
 
 We have the following commands:
 
@@ -489,7 +489,10 @@ io.sendline(b'ls')
 
 io.interactive()
 ```
-This gives us the last flag:
+This gives us a shell and makes us able to print flag.txt:
+
+![shell](shell.png)
+
 ```
 improsegg{backdooring_a_backdoor!?}
 ```
